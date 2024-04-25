@@ -1,8 +1,13 @@
+import java.util.Date;
+
 public class Main {
     public static void main(String[] args) {
         Employee e = new Employee();
         e.setName("Doaa");
         e.setGender("Female");
+        Date d = new Date(81,10,10);
+//        e.setBirthdate(d);
+        e.setBirthdate(new Date(81,10,10));
         e.setEmail("dode3us@yahoo.com");
         e.setPhone("01225738514");
         e.setAddress("Alex, Egypt");
